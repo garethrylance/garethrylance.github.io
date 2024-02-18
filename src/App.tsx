@@ -9,14 +9,15 @@ function App() {
         {" "}
         <img src={flappyIcon} className="logo react" alt="React logo" />
       </a>
+      <h1>Click the Robot</h1>
       <div>
-        <iframe
+        {/* <iframe
           src="flappy.html"
           width={500}
           height={500}
-          title="Flappy Game"
+          title="Flappy Game" 
           allow="cross-origin-isolated"
-        ></iframe>
+        ></iframe> */}
       </div>
     </>
   );
