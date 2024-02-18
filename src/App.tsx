@@ -13,7 +13,7 @@ function App() {
         <iframe
           src="flappy.html"
           width={500}
-          height={960}
+          height={500}
           title="Flappy Game"
           allow="cross-origin-isolated"
         ></iframe>
