@@ -1,3 +1,8 @@
+# Deploy
+
+cp -r /mnt/c/gjr/dev/src/godot/flappy_gareth/export/html/ public/flappy/
+bun vite build
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
