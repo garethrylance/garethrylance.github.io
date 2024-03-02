@@ -1,10 +1,6 @@
 import { HomeOutlined, PlayCircleFilled } from "@ant-design/icons";
 
-import {
-  createBrowserRouter,
-  RouterProvider,
-  Navigate,
-} from "react-router-dom";
+import { createHashRouter, RouterProvider, Navigate } from "react-router-dom";
 
 import { AppNavigation } from "./Navigation/Navigation";
 
@@ -26,7 +22,7 @@ const pages = [
   },
 ];
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <AppNavigation pages={pages}></AppNavigation>,
