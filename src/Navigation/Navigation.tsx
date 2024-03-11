@@ -42,7 +42,7 @@ export const AppNavigation: FC<AppNavigationProps> = ({
   return (
     <ConfigProvider
       theme={{
-        algorithm: [theme.darkAlgorithm, theme.compactAlgorithm],
+        algorithm: [theme.darkAlgorithm],
         token: {
           colorPrimary: "#faad14",
           colorInfo: "#faad14",
