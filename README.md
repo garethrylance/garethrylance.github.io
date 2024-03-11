@@ -1,6 +1,6 @@
 # Deploy
 
-cp -r /mnt/c/gjr/dev/src/godot/flappy_gareth/export/html/ public/flappy/
+cp -r /mnt/c/gjr/dev/src/godot/flappy_gareth/export/html/\* public/flappy/
 bun vite build
 
 # React + TypeScript + Vite
