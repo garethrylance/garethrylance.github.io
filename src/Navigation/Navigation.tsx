@@ -4,6 +4,7 @@ import { NavLink, Outlet, useLocation } from "react-router-dom";
 import { ConfigProvider, Layout, Menu, Typography, theme } from "antd";
 
 import { FC, ReactElement } from "react";
+import { PlayCircleFilled } from "@ant-design/icons";
 
 interface page {
   label: string;
@@ -16,7 +17,7 @@ interface AppNavigationProps {
 }
 
 const generateMenuItems = (pages: page[]) => {
-  return pages.map((p) => {
+  const menuItems = pages.map((p) => {
     return {
       key: p.path,
       icon: p.icon,
@@ -27,6 +28,19 @@ const generateMenuItems = (pages: page[]) => {
       ),
     };
   });
+
+  menuItems.push({
+    key: "/poker/index.html",
+    icon: <PlayCircleFilled />,
+    label: (
+      <a href={"/poker/index.html"}>
+        <Typography.Text>Poker </Typography.Text>
+      </a>
+    ),
+  });
+
+
+  return menuItems;
 };
 
 export const AppNavigation: FC<AppNavigationProps> = ({

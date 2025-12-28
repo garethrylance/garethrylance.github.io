@@ -19,7 +19,7 @@ const pages = [
     label: "Flappy Energy",
     icon: <PlayCircleFilled />,
     element: <FlappyEnergy />,
-  },
+  }
 ];
 
 const router = createHashRouter([
