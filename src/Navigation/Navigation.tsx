@@ -4,7 +4,7 @@ import { NavLink, Outlet, useLocation } from "react-router-dom";
 import { ConfigProvider, Layout, Menu, Typography, theme } from "antd";
 
 import { FC, ReactElement } from "react";
-import { PlayCircleFilled } from "@ant-design/icons";
+import { PlayCircleFilled, DatabaseOutlined } from "@ant-design/icons";
 
 interface page {
   label: string;
@@ -39,7 +39,15 @@ const generateMenuItems = (pages: page[]) => {
     ),
   });
 
-
+  menuItems.push({
+    key: "/data/index.html",
+    icon: <DatabaseOutlined />,
+    label: (
+      <a href={"/data/index.html"}>
+        <Typography.Text>Poker </Typography.Text>
+      </a>
+    ),
+  });
   return menuItems;
 };
 

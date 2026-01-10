@@ -35,6 +35,8 @@ export default {
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
 
 # Development
-
+```
 bun run dev
 bun vite build
+rm -rf  public/data/* ;   cp -r  ../data-analyser/dist/* public/data/
+```
