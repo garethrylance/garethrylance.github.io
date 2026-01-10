@@ -44,7 +44,7 @@ const generateMenuItems = (pages: page[]) => {
     icon: <DatabaseOutlined />,
     label: (
       <a href={"/data/index.html"}>
-        <Typography.Text>Poker </Typography.Text>
+        <Typography.Text>Data Analyser </Typography.Text>
       </a>
     ),
   });
