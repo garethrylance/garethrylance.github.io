@@ -38,5 +38,5 @@ export default {
 ```
 bun run dev
 bun vite build
-rm -rf  public/data/* ;   cp -r  ../data-analyser/dist/* public/data/
+rm -rf  public/data/* &&   cp -r  ../data-analyser/dist/* public/data/
 ```
