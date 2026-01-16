@@ -1,1 +1,0 @@
-import{r as e,I as n,a as r,al as i,am as d}from"./index-DzaOA67_.js";var c=function(t,a){return e.createElement(n,r({},t,{ref:a,icon:i}))},l=e.forwardRef(c),u=function(t,a){return e.createElement(n,r({},t,{ref:a,icon:d}))},s=e.forwardRef(u);export{s as R,l as a};
