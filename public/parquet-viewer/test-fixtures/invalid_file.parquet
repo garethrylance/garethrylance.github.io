@@ -1,0 +1,2 @@
+This is not a valid Parquet file
+It should trigger an error when loaded

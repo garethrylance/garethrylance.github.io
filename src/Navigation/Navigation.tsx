@@ -40,6 +40,20 @@ const generateMenuItems = (pages: page[]) => {
   });
 
   menuItems.push({
+    key: "/  parquet-viewer/index.html",
+    icon: <DatabaseOutlined />,
+    label: (
+      <a href={"/  parquet-viewer/index.html"}>
+        <Typography.Text>Parquet Viewer </Typography.Text>
+      </a>
+    ),
+  });
+
+
+
+
+
+  menuItems.push({
     key: "/data/index.html",
     icon: <DatabaseOutlined />,
     label: (
