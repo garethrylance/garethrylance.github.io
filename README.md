@@ -40,5 +40,5 @@ bun run dev
 bun vite build
 rm -rf  public/data/* &&   cp -r  ../data-analyser/dist/* public/data/
 
-rm -rf  public/parquet-viewer/* &&   cp -r  ../data-analyser/dist/* public/parquet-viewer/
+rm -rf  public/parquet-viewer/* &&   cp -r  ../parquet-viewer/dist/* public/parquet-viewer/
 ```
